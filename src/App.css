@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+}
+
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: #eee;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+

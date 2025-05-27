@@ -1,0 +1,21 @@
+.hero-section {
+  height: 60vh;
+  background-image: url('hero-bg.png'); /* Add your image in public folder */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-text {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.5s ease;
+}
+
+.hero-text.grow {
+  transform: scale(1.5);
+}
