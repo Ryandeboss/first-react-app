@@ -6,7 +6,7 @@ import { useContext } from 'react';
 // import componenets
 import NavBar from './components/NavBar';
 import Hero from './components/hero';
-import CardSection from './components/card_section'
+import CardSection from './components/CardSection'
 import Footer from './components/footer'
 
 // import context
